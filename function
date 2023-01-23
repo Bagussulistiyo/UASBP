@@ -1,0 +1,11 @@
+kota, provinsi = 'Bandung', 'Garut'
+
+def hello ():
+  provinsi = 'Jawa barat'
+  print(kota, provinsi)
+
+print('[PANGGIL FUNGSI hello()]')
+hello()
+
+print('\n[SECARA LANGSUNG]')
+print(kota, provinsi)
